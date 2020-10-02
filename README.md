@@ -61,10 +61,34 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+Node.js:
+JavaScript on the server: use the same programming language and paradigm for both client and server. This minimizes context switching and makes it easy to share code between the client and the server.
+
+Single-threaded: removes the complexity involved in handling multiple threads.
+Asynchronous: can take full advantage of the processor it’s running on. This matters because the node process will be running on a single CPU.
+
+Npm repository: access the largest ecosystem of useful libraries (most of them free to use) in the form of npm modules.
+
+Express adds extra functionality, like routing and middleware support, and a simpler API.
+
 1. Understand and explain the use of Middleware?
+
+Middleware is computer software that provides services to software applications beyond those available from the operating system. Middleware makes it easier for software developers to implement communication and input/output, so they can focus on the specific purpose of their application.
+
+
 1. The basic principles of the REST architectural style.
+
+The RESTful architectural stlye is as follows: everything is a resource, each resource is accessible via a unique URI,resources can have multiple representations, communication happens over a stateless protocol (HTTP), resource management happens via HTTP methods.
+
+
 1. Understand and explain the use of Express Routers.
+
+Express Routers are a way to split an application into sub-applications to make it more modular and easier to maintain and reason about.
+
+
 1. Describe tooling used to manually test the correctness of an API.
+
+Using your terminal, Postman, and your deployment logs on Heroku are usually your best ways of manaually testing your app.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
